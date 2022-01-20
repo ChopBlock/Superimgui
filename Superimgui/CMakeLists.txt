@@ -2,6 +2,10 @@
 # 项目特定的逻辑。
 #
 cmake_minimum_required (VERSION 3.8)
+CMAKE_CXX_STANDARD 17
+CMAKE_CXX_STANDARD_REQUIRED ON
+
+
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (Superimgui "Superimgui.cpp" "Superimgui.h")
