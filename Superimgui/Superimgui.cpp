@@ -1,7 +1,7 @@
 ﻿// Superimgui.cpp: 定义应用程序的入口点。
 //
 
-#include "Superimgui.h"
+#include <iostream>
 
 using namespace std;
 
