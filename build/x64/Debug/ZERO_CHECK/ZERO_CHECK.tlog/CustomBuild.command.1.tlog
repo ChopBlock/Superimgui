@@ -1,0 +1,10 @@
+^D:\VC_CODE\SOURCE\GUI\SUPERIMGUI\BUILD\CMAKEFILES\438A63574E09B77151467BF8FD16C4C0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/vc_code/source/gui/Superimgui -BD:/vc_code/source/gui/Superimgui/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/vc_code/source/gui/Superimgui/build/Superimgui.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

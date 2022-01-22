@@ -1,0 +1,42 @@
+[
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\Superimgui.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\Superimgui\\Superimgui.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\Superimgui\\Superimgui.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\backends\\imgui_impl_glfw.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends\\imgui_impl_glfw.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\backends\\imgui_impl_vulkan.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends\\imgui_impl_vulkan.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends\\imgui_impl_vulkan.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\imgui.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_demo.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_demo.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_demo.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_draw.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_draw.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_draw.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_tables.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_tables.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_tables.cpp"
+},
+{
+  "directory": "D:/vc_code/source/gui/Superimgui/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\ENTERP~1\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -ID:\\vc_code\\source\\gui\\Superimgui\\glfw\\include -ID:\\vc_code\\source\\gui\\Superimgui\\imgui -ID:\\vc_code\\source\\gui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoSuperimgui\\CMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_widgets.cpp.obj /FdTARGET_COMPILE_PDB -c -- D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_widgets.cpp",
+  "file": "D:\\vc_code\\source\\gui\\Superimgui\\imgui\\imgui_widgets.cpp"
+}
+]
