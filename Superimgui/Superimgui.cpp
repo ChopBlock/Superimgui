@@ -14,7 +14,7 @@
 #include "imgui_impl_vulkan.h"
 #include <stdio.h>          // printf, fprintf
 #include <stdlib.h>         // abort
-
+#include <string>
 #define GLFW_INCLUDE_NONE
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
@@ -498,17 +498,19 @@ int main(int, char**)
     {
       static float f = 0.0f;
       static int counter = 0;
-
+      static   std::string port="COM3";
       ImGui::Begin("Hello, world!");                          // Create a window called "Hello, world!" and append into it.
 
-      ImGui::Text("This is some useful text.");               // Display some text (you can use a format strings too)
-      ImGui::Checkbox("Demo Window", &show_demo_window);      // Edit bools storing our window open/close state
-      ImGui::Checkbox("Another Window", &show_another_window);
+      ImGui::Text("串口端号");               // Display some text (you can use a format strings too)
+      ImGui::InputText("端口号",port.c_str());
+         
+      
 
       ImGui::SliderFloat("float", &f, 0.0f, 1.0f);            // Edit 1 float using a slider from 0.0f to 1.0f
       ImGui::ColorEdit3("clear color", (float*)&clear_color); // Edit 3 floats representing a color
-
-
+      ImGui::ColorEdit4("color pick4",&f);
+    
+      
 
       if (ImGui::Button("Button"))                            // Buttons return true when clicked (most widgets return true when edited/activated)
         counter++;
