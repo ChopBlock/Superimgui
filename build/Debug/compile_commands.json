@@ -1,0 +1,42 @@
+[
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\Superimgui.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\Superimgui\\Superimgui.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/Superimgui/Superimgui.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\backends\\imgui_impl_glfw.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\backends\\imgui_impl_vulkan.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends\\imgui_impl_vulkan.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/backends/imgui_impl_vulkan.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\imgui.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\imgui.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/imgui.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_demo.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\imgui_demo.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_draw.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\imgui_draw.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_tables.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\imgui_tables.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1430~1.307\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\glfw\\include -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui -IH:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\backends -IC:\\VulkanSDK\\1.2.198.1\\Include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\Superimgui.dir\\__\\imgui\\imgui_widgets.cpp.obj /FdCMakeFiles\\Superimgui.dir/ /FS -c H:\\ggsproject\\GGS\\Custom\\gui\\SuperImgui\\Superimgui\\imgui\\imgui_widgets.cpp",
+  "file": "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/imgui/imgui_widgets.cpp"
+}
+]
