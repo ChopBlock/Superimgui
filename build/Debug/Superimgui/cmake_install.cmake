@@ -1,4 +1,4 @@
-# Install script for directory: H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/Superimgui
+# Install script for directory: D:/vc_code/source/gui/Superimgui/Superimgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui
+CMAKE_SOURCE_DIR = D:\vc_code\source\gui\Superimgui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug
+CMAKE_BINARY_DIR = D:\vc_code\source\gui\Superimgui\build\Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(CMAKE_COMMAND) -E cmake_progress_start H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug\CMakeFiles H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug\Superimgui\\CMakeFiles\progress.marks
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug\CMakeFiles 0
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\vc_code\source\gui\Superimgui\build\Debug\CMakeFiles D:\vc_code\source\gui\Superimgui\build\Debug\Superimgui\\CMakeFiles\progress.marks
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\vc_code\source\gui\Superimgui\build\Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/clean
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/preinstall
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/preinstall
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Superimgui/CMakeFiles/Superimgui.dir/rule:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/CMakeFiles/Superimgui.dir/rule
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Superimgui/CMakeFiles/Superimgui.dir/rule
 .PHONY : Superimgui/CMakeFiles/Superimgui.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ Superimgui: Superimgui/CMakeFiles/Superimgui.dir/rule
 
 # fast build rule for target.
 Superimgui/fast:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/build
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/build
 .PHONY : Superimgui/fast
 
 Superimgui.obj: Superimgui.cpp.obj
@@ -134,7 +134,7 @@ Superimgui.obj: Superimgui.cpp.obj
 
 # target to build an object file
 Superimgui.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/Superimgui.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/Superimgui.cpp.obj
 .PHONY : Superimgui.cpp.obj
 
 Superimgui.i: Superimgui.cpp.i
@@ -142,7 +142,7 @@ Superimgui.i: Superimgui.cpp.i
 
 # target to preprocess a source file
 Superimgui.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/Superimgui.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/Superimgui.cpp.i
 .PHONY : Superimgui.cpp.i
 
 Superimgui.s: Superimgui.cpp.s
@@ -150,7 +150,7 @@ Superimgui.s: Superimgui.cpp.s
 
 # target to generate assembly for a file
 Superimgui.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/Superimgui.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/Superimgui.cpp.s
 .PHONY : Superimgui.cpp.s
 
 __/imgui/backends/imgui_impl_glfw.obj: __/imgui/backends/imgui_impl_glfw.cpp.obj
@@ -158,7 +158,7 @@ __/imgui/backends/imgui_impl_glfw.obj: __/imgui/backends/imgui_impl_glfw.cpp.obj
 
 # target to build an object file
 __/imgui/backends/imgui_impl_glfw.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.obj
 .PHONY : __/imgui/backends/imgui_impl_glfw.cpp.obj
 
 __/imgui/backends/imgui_impl_glfw.i: __/imgui/backends/imgui_impl_glfw.cpp.i
@@ -166,7 +166,7 @@ __/imgui/backends/imgui_impl_glfw.i: __/imgui/backends/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 __/imgui/backends/imgui_impl_glfw.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.i
 .PHONY : __/imgui/backends/imgui_impl_glfw.cpp.i
 
 __/imgui/backends/imgui_impl_glfw.s: __/imgui/backends/imgui_impl_glfw.cpp.s
@@ -174,7 +174,7 @@ __/imgui/backends/imgui_impl_glfw.s: __/imgui/backends/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 __/imgui/backends/imgui_impl_glfw.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.s
 .PHONY : __/imgui/backends/imgui_impl_glfw.cpp.s
 
 __/imgui/backends/imgui_impl_vulkan.obj: __/imgui/backends/imgui_impl_vulkan.cpp.obj
@@ -182,7 +182,7 @@ __/imgui/backends/imgui_impl_vulkan.obj: __/imgui/backends/imgui_impl_vulkan.cpp
 
 # target to build an object file
 __/imgui/backends/imgui_impl_vulkan.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.obj
 .PHONY : __/imgui/backends/imgui_impl_vulkan.cpp.obj
 
 __/imgui/backends/imgui_impl_vulkan.i: __/imgui/backends/imgui_impl_vulkan.cpp.i
@@ -190,7 +190,7 @@ __/imgui/backends/imgui_impl_vulkan.i: __/imgui/backends/imgui_impl_vulkan.cpp.i
 
 # target to preprocess a source file
 __/imgui/backends/imgui_impl_vulkan.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.i
 .PHONY : __/imgui/backends/imgui_impl_vulkan.cpp.i
 
 __/imgui/backends/imgui_impl_vulkan.s: __/imgui/backends/imgui_impl_vulkan.cpp.s
@@ -198,7 +198,7 @@ __/imgui/backends/imgui_impl_vulkan.s: __/imgui/backends/imgui_impl_vulkan.cpp.s
 
 # target to generate assembly for a file
 __/imgui/backends/imgui_impl_vulkan.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.s
 .PHONY : __/imgui/backends/imgui_impl_vulkan.cpp.s
 
 __/imgui/imgui.obj: __/imgui/imgui.cpp.obj
@@ -206,7 +206,7 @@ __/imgui/imgui.obj: __/imgui/imgui.cpp.obj
 
 # target to build an object file
 __/imgui/imgui.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.obj
 .PHONY : __/imgui/imgui.cpp.obj
 
 __/imgui/imgui.i: __/imgui/imgui.cpp.i
@@ -214,7 +214,7 @@ __/imgui/imgui.i: __/imgui/imgui.cpp.i
 
 # target to preprocess a source file
 __/imgui/imgui.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.i
 .PHONY : __/imgui/imgui.cpp.i
 
 __/imgui/imgui.s: __/imgui/imgui.cpp.s
@@ -222,7 +222,7 @@ __/imgui/imgui.s: __/imgui/imgui.cpp.s
 
 # target to generate assembly for a file
 __/imgui/imgui.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.s
 .PHONY : __/imgui/imgui.cpp.s
 
 __/imgui/imgui_demo.obj: __/imgui/imgui_demo.cpp.obj
@@ -230,7 +230,7 @@ __/imgui/imgui_demo.obj: __/imgui/imgui_demo.cpp.obj
 
 # target to build an object file
 __/imgui/imgui_demo.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_demo.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_demo.cpp.obj
 .PHONY : __/imgui/imgui_demo.cpp.obj
 
 __/imgui/imgui_demo.i: __/imgui/imgui_demo.cpp.i
@@ -238,7 +238,7 @@ __/imgui/imgui_demo.i: __/imgui/imgui_demo.cpp.i
 
 # target to preprocess a source file
 __/imgui/imgui_demo.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_demo.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_demo.cpp.i
 .PHONY : __/imgui/imgui_demo.cpp.i
 
 __/imgui/imgui_demo.s: __/imgui/imgui_demo.cpp.s
@@ -246,7 +246,7 @@ __/imgui/imgui_demo.s: __/imgui/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 __/imgui/imgui_demo.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_demo.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_demo.cpp.s
 .PHONY : __/imgui/imgui_demo.cpp.s
 
 __/imgui/imgui_draw.obj: __/imgui/imgui_draw.cpp.obj
@@ -254,7 +254,7 @@ __/imgui/imgui_draw.obj: __/imgui/imgui_draw.cpp.obj
 
 # target to build an object file
 __/imgui/imgui_draw.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_draw.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_draw.cpp.obj
 .PHONY : __/imgui/imgui_draw.cpp.obj
 
 __/imgui/imgui_draw.i: __/imgui/imgui_draw.cpp.i
@@ -262,7 +262,7 @@ __/imgui/imgui_draw.i: __/imgui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 __/imgui/imgui_draw.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_draw.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_draw.cpp.i
 .PHONY : __/imgui/imgui_draw.cpp.i
 
 __/imgui/imgui_draw.s: __/imgui/imgui_draw.cpp.s
@@ -270,7 +270,7 @@ __/imgui/imgui_draw.s: __/imgui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 __/imgui/imgui_draw.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_draw.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_draw.cpp.s
 .PHONY : __/imgui/imgui_draw.cpp.s
 
 __/imgui/imgui_tables.obj: __/imgui/imgui_tables.cpp.obj
@@ -278,7 +278,7 @@ __/imgui/imgui_tables.obj: __/imgui/imgui_tables.cpp.obj
 
 # target to build an object file
 __/imgui/imgui_tables.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_tables.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_tables.cpp.obj
 .PHONY : __/imgui/imgui_tables.cpp.obj
 
 __/imgui/imgui_tables.i: __/imgui/imgui_tables.cpp.i
@@ -286,7 +286,7 @@ __/imgui/imgui_tables.i: __/imgui/imgui_tables.cpp.i
 
 # target to preprocess a source file
 __/imgui/imgui_tables.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_tables.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_tables.cpp.i
 .PHONY : __/imgui/imgui_tables.cpp.i
 
 __/imgui/imgui_tables.s: __/imgui/imgui_tables.cpp.s
@@ -294,7 +294,7 @@ __/imgui/imgui_tables.s: __/imgui/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 __/imgui/imgui_tables.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_tables.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_tables.cpp.s
 .PHONY : __/imgui/imgui_tables.cpp.s
 
 __/imgui/imgui_widgets.obj: __/imgui/imgui_widgets.cpp.obj
@@ -302,7 +302,7 @@ __/imgui/imgui_widgets.obj: __/imgui/imgui_widgets.cpp.obj
 
 # target to build an object file
 __/imgui/imgui_widgets.cpp.obj:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.obj
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.obj
 .PHONY : __/imgui/imgui_widgets.cpp.obj
 
 __/imgui/imgui_widgets.i: __/imgui/imgui_widgets.cpp.i
@@ -310,7 +310,7 @@ __/imgui/imgui_widgets.i: __/imgui/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 __/imgui/imgui_widgets.cpp.i:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.i
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.i
 .PHONY : __/imgui/imgui_widgets.cpp.i
 
 __/imgui/imgui_widgets.s: __/imgui/imgui_widgets.cpp.s
@@ -318,7 +318,7 @@ __/imgui/imgui_widgets.s: __/imgui/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 __/imgui/imgui_widgets.cpp.s:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.s
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(MAKE) $(MAKESILENT) -f Superimgui\CMakeFiles\Superimgui.dir\build.make Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.s
 .PHONY : __/imgui/imgui_widgets.cpp.s
 
 # Help Target
@@ -365,6 +365,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d H:\ggsproject\GGS\Custom\gui\SuperImgui\Superimgui\build\Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\vc_code\source\gui\Superimgui\build\Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

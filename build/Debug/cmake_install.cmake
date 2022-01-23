@@ -1,4 +1,4 @@
-# Install script for directory: H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui
+# Install script for directory: D:/vc_code/source/gui/Superimgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui/cmake_install.cmake")
+  include("D:/vc_code/source/gui/Superimgui/build/Debug/Superimgui/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/vc_code/source/gui/Superimgui/build/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

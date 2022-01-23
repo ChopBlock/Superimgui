@@ -1,5 +1,5 @@
-H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/CMakeFiles/edit_cache.dir
-H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/CMakeFiles/rebuild_cache.dir
-H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui/CMakeFiles/Superimgui.dir
-H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui/CMakeFiles/edit_cache.dir
-H:/ggsproject/GGS/Custom/gui/SuperImgui/Superimgui/build/Debug/Superimgui/CMakeFiles/rebuild_cache.dir
+D:/vc_code/source/gui/Superimgui/build/Debug/CMakeFiles/edit_cache.dir
+D:/vc_code/source/gui/Superimgui/build/Debug/CMakeFiles/rebuild_cache.dir
+D:/vc_code/source/gui/Superimgui/build/Debug/Superimgui/CMakeFiles/Superimgui.dir
+D:/vc_code/source/gui/Superimgui/build/Debug/Superimgui/CMakeFiles/edit_cache.dir
+D:/vc_code/source/gui/Superimgui/build/Debug/Superimgui/CMakeFiles/rebuild_cache.dir
