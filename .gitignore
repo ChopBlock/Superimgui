@@ -196,3 +196,4 @@ build/Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui_widgets.cpp.obj
 build/Superimgui/CMakeFiles/Superimgui.dir/__/imgui/imgui.cpp.obj
 build/Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_glfw.cpp.obj
 build/Superimgui/CMakeFiles/Superimgui.dir/__/imgui/backends/imgui_impl_vulkan.cpp.obj
+.vscode/settings.json
